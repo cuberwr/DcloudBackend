@@ -8,8 +8,9 @@ exports.main = async (event, context) => {
 	    "port": 465,
 	    "secureConnection": true, // use SSL, the port is 465
 	    "auth": {
-	        "user": 'account@geekwr.cn', 
-	        "pass": '1234qwerASDF'        
+	        "user": '', 
+	        "pass": ''  
+            //有些人真你妈恶心，给你测试用key你他妈拿去刷量，祝你妈身体健康      
 	    }
 	});
 	
